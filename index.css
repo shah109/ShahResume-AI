@@ -1,0 +1,12 @@
+.SideColumn {
+  background-color: whitesmoke;
+}
+
+.headerText {
+  background-color: aqua;
+}
+ul {
+  margin-left: 8px;
+  padding: 2%;
+  font-size: medium;
+}
