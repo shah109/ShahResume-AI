@@ -19,13 +19,13 @@ body {
 .side-line{
     background-color: rgb(0, 81, 255);
     height:100%;
-    width: 15px;
+    width: 10px;
 }
 
 .side-bar{
     background-color:rgb(241, 194, 217);
     height:100%;
-    width:15%;
+    width:10%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,6 +43,15 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 25%;
+
+}
+
+.circle:hover{
+    background-color: darkslategrey;
+}
+
+.circle:active{
+    background-color:rgb(0, 81, 255); ;
 }
 
 .blue-circle{
@@ -50,7 +59,8 @@ body {
 }
 
 .right-panel{
-    #background-color: green;
+    display:flex
+    background-color: green;
     height: 100%;
     width:100%;
 
@@ -63,4 +73,33 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 1px 10px dimgray ;
+}
+
+.logo-container{
+    padding-right: 20px;
+
+}
+
+.empty-side{
+    padding-right:100px;
+}
+h1{
+    color:white;
+    font-family: sans-serif;
+}
+.tablet-container{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#tablet-img{
+    position:absolute;
+
+}
+#main-canvas{
+    position: absolute;
+    z-index: -1;
 }
